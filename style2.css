@@ -1,0 +1,148 @@
+body {
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:12px;
+	margin-left:120px;
+	margin-top:10px;
+  line-height:1.3em;
+}
+
+div#content {
+	position:absolute;
+	left:50%;
+	margin-top:0px;
+	/* h2 are offset to left */
+	margin-left:-140px;
+	width:380px;
+	padding-bottom:100px;
+}
+
+div#footer {
+	position:absolute;
+	left:50%;
+	margin-top:680px;
+	margin-left:-140px;
+	width:520px;
+	padding-bottom:0px;
+}
+
+em {
+	font-style:normal;
+	color:#0033dd;
+}
+a,
+a:active,
+a:visited {
+	color: #000;
+}
+h1#title {
+	background-image:url(/i/title.png);
+	background-repeat:no-repeat;
+	height:18px;
+}
+h2 {
+	padding:0;
+	margin:0;
+	position:relative;
+	width:120px;
+	top:15px;
+	left:-130px;
+	font-size:15px;
+	color:#3d3d3d;
+	background-repeat:no-repeat;
+	height:15px;
+}
+h2#services_ {
+	background-image:url(/i/services.png);
+}
+h2#philosophy_ {
+	background-image:url(/i/philosophy.png);
+}
+h2#contact_ {
+	background-image:url(/i/contact.png);
+}
+h2#references_ {
+	background-image:url(/i/references.png);
+}
+span {
+	display:none;
+}
+
+a:hover,
+a:visited,
+a:active {
+  color:#888;
+}
+
+/* start references styles */
+
+/* years */
+h3 {
+  font-size:11px;
+  color:#007700;
+  border-left: 3px dotted;
+  padding-left:5px;
+  padding-bottom:1px;
+  margin-top:40px;
+}
+h3.first {
+  margin-top:4px;
+}
+h4 {
+  width:100%;
+  margin-top:40px;
+  padding-bottom:2px;
+  border-bottom:1px dotted;
+  font-size:11px;
+}
+h4.first {
+  margin-top:0px;
+}
+ul {
+  margin-top:0;
+  margin-left:1.45em;
+  padding-left:0;
+}
+
+li {
+  margin-bottom:2px;
+}
+
+a.ref_link,
+a.ref_link_unavail {
+  position:relative;
+  top:-15px;
+  float:right;
+  font-weight:normal;
+}
+a.ref_link_unavail,
+a.ref_link_unavail:hover {
+  text-decoration:none;
+  font-style:italic;
+  color:#000;
+  cursor:default;
+}
+
+#screenshots_pager {
+  position:absolute;
+  top:430px;
+  width:100%;
+}
+
+#screenshots_pager a {
+  text-decoration:none;
+  color:#000;
+}
+#screenshots_pager a:visited {
+  text-decoration:none;
+  color:#888;
+}
+img {
+  border:none;
+}
+
+
+a.lbOn {
+  border:1px solid #888;
+  position:absolute;
+  left:-224px;
+}
